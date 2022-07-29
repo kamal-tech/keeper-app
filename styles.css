@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+body{
+    font-family: "Architects Daughter", cursive;
+}
+
+header{
+    background-color: rgb(240, 187, 15);
+    padding: 1rem;
+    box-shadow: 0px 1px 5px grey;
+}
+.appName{
+    color: #fff;
+    font-family: 'McLaren', cursive;
+    font-weight: 300;
+    font-size: 2em;
+    padding-left: 1.5rem;
+}
+
+/*Note Section*/
+
+.note {
+    margin:1rem;
+    width: 240px;
+    float: left;
+}
+.container-form{
+    margin: 1rem auto;
+    display: block;
+    width: 25rem;
+}
+.note, .container-form{
+    background-color: white;
+    box-shadow: 0px 0.5px 8px grey;
+    border-radius: 7px;
+    line-height: 2rem;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.addButton{
+    font-size: 1.9rem;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    background-color: rgb(240, 187, 15);
+    border-radius: 100%;
+    
+}
+.note button{
+    background-color: transparent;
+    color:rgb(240, 187, 15);
+  }
+.addButton, .note button{
+    border: transparent; 
+    cursor:pointer;
+    float:right; 
+}
+
+.addButton:hover{
+    background-color: #fdcb6e;
+}
+.note button:hover{
+    color: #fdcb6e;
+}
+
+.inputTitle{
+  font-size: 1.2rem;
+}
+textarea{
+    font-size: 1rem;
+    resize: none;
+}
+.inputTitle, textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    width: 100%;
+}
+
+.noteContent{
+    color:rgb(83, 77, 77);
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+
